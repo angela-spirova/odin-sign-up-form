@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bg-image">
+        <!-- <img src="./img/photo-1585202900225-6d3ac20a6962.avif" alt=""> -->
+        <div>
+            <img src="./img/odin-lined.png" alt="" id="logo">
+            <h1 id="title">Odin</h1>
+        </div>
+    </div>
+    <div class="form-section">
+        <div>
+            <h1>Create your account</h1>
+            <p>
+                This is not a real online service!
+                You know you need something like this in your life to help
+                you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+            </p>
+        <p>You <em>know</em> you want to.</p>
+        </div>
+        
+
+        <form action="">
+            <h2>Let's do this!</h2>
+            
+            <div class="input-grid">
+                <div>
+                    <label for="name">First name</label>
+                    <input type="text" id="name" name="name" placeholder="Thor" required>
+                </div>
+                <div>
+                    <label for="surname">Last name</label>
+                    <input type="text" id="surname" name="surname" placeholder="Odinson" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="user@example.com" required>
+                </div>
+                <div>
+                    <label for="phonenumber">Phone number</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="XX-XX-XXX" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="password-confirm">Confirm password</label>
+                    <input type="password" id="password-confirm" name="password-confirm" required>
+                </div>
+            </div>
+            <button>Create Account</button>
+            
+        </form>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+</body>
+</html>
