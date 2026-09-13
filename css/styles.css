@@ -12,12 +12,12 @@
     --bg-clr:#F9FAFB;
     --accent-clr:#596D48;
     --input-border-clr:#E5E7EB;
-    --input-invalid-border-clr:red;
 }
 
 body *{
     box-sizing: border-box;
 }
+
 body{
     display:flex;
     width:100vw;
@@ -26,6 +26,7 @@ body{
     margin:0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* background image */
 .bg-image{
     background-image:url(../img/photo-1585202900225-6d3ac20a6962.avif);
@@ -84,13 +85,11 @@ input{
 }
 
 
-
 .input-grid{
     width:70%;
     display:grid;
     grid-template-columns: auto auto;
 }
-
 
 
 input{
@@ -105,12 +104,11 @@ input:user-invalid{
     border-color:red;
 }
 
-input:focus, input:active, input:focus-within, input:focus{
+input:focus, input:focus-within, input:focus{
     border-color:blue;
     outline:none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.189);
 }
-
 
 
 button{
@@ -133,6 +131,7 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
+
 a:hover{
     text-decoration:underline;
 }
