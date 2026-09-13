@@ -110,6 +110,12 @@ input:focus, input:focus-within, input:focus{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.189);
 }
 
+.input-grid p{
+    font-size: small;
+    color:grey;
+    margin-top:-0.5em;
+}
+
 
 button{
     border:none;
